@@ -9,7 +9,9 @@ It is useful for waiting until all necessary event data is available before star
 
 ```js
 const itsgotime = require('itsgotime');
+const EventEmitter = require('events').EventEmitter;
 
+let ee = new EventEmitter();
 
 itsgotime(ee, ['event1', 'event2'], (data) => {
   // the last arguments emitted for all events are indexed by event name
@@ -19,6 +21,9 @@ itsgotime(ee, ['event1', 'event2'], (data) => {
   // .. do something
 
 });
+
+ee.emit('event1', args);
+ee.emit('event2', args);
 
 
 ```

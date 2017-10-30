@@ -6,5 +6,10 @@
   "url": "https://github.com/msmiley/itsgotime",
   "repository": "msmiley/itsgotime.git",
   "main": "index.js",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "trigger",
+    "events",
+    "watch"
+  ]
 }

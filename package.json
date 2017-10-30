@@ -1,6 +1,6 @@
 {
   "name": "itsgotime",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "event watcher triggers when all events have been emitted",
   "author": "Mike Smiley <msmiley@alumni.rice.edu>",
   "url": "https://github.com/msmiley/itsgotime",
